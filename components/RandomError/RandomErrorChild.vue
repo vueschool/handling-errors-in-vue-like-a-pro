@@ -1,5 +1,7 @@
 <template>
-  <button @click="throwError">Throw Error from Child</button>
+  <button class="btn btn-primary" @click="throwError">
+    Throw Error from Child
+  </button>
   <RandomErrorGrandChild />
 </template>
 
