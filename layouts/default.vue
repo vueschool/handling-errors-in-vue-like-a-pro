@@ -18,24 +18,32 @@ const links = [
   },
   {
     to: "/3-begin",
-    label: "3 - onErrorCaptured in Slots Begin",
+    label: "3 - onErrorCaptured Begin",
   },
   {
     to: "/3-end",
-    label: "3 - onErrorCaptured in Slots End",
+    label: "3 - onErrorCaptured End",
   },
   {
     to: "/4-begin",
-    label: "4 - Error Boundary Component Begin",
+    label: "4 - onErrorCaptured in Slots Begin",
   },
   {
     to: "/4-end",
-    label: "4 - Error Boundary Component End",
+    label: "4 - onErrorCaptured in Slots End",
+  },
+  {
+    to: "/5-begin",
+    label: "5 - Error Boundary Component Begin",
+  },
+  {
+    to: "/5-end",
+    label: "5 - Error Boundary Component End",
   },
 ];
 </script>
 <template>
-  <div class="navbar bg-base-100 shadow-sm">
+  <div class="navbar bg-base-100 shadow-sm z-10 relative">
     <div class="flex-1">
       <NuxtLink class="btn btn-ghost text-x" to="/">Vue Errors Course</NuxtLink>
     </div>
@@ -71,7 +79,7 @@ const links = [
         aria-label="close sidebar"
         class="drawer-overlay"
       ></label>
-      <ul class="menu bg-base-200 text-base-content min-h-full w-80 p-4">
+      <ul class="menu bg-base-200 text-base-content min-h-full w-80 p-4 mt-16">
         <!-- Sidebar content here -->
         <li v-for="link in links" :key="link.to">
           <NuxtLink :to="link.to">{{ link.label }}</NuxtLink>

@@ -3,7 +3,7 @@ const error = ref();
 onErrorCaptured((err) => {
   error.value = err;
   console.log("error captured", err);
-  return false;
+  // return false;
 });
 </script>
 
