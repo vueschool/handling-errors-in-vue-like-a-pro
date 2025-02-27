@@ -1,4 +1,5 @@
 <script setup lang="ts">
+// (nothing changed from 2b-begin.vue)
 const error = ref();
 onErrorCaptured((err) => {
   error.value = err;
@@ -10,7 +11,7 @@ onErrorCaptured((err) => {
 <template>
   <h1 class="text-2xl font-bold mb-5">
     Lesson 2 (part b) - Catching Errors at the Vue Component Level
-    (onErrorCaptured) Begin
+    (onErrorCaptured) End
   </h1>
   <RandomErrorParent v-if="!error" />
   <div v-else>
