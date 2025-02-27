@@ -1,6 +1,6 @@
 <template>
   <h1 class="text-2xl font-bold mb-5">
-    Lesson 4 - Error Boundary Component Begin
+    Lesson 5 - Error Boundary Component Begin
   </h1>
   <CustomErrorBoundary>
     <RandomErrorParent />
