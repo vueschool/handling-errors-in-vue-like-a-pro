@@ -26,11 +26,11 @@ const links = [
   },
   {
     to: "/4-begin",
-    label: "4 - onErrorCaptured in Slots Begin",
+    label: "4 - onErrorCaptured with Slots Begin",
   },
   {
     to: "/4-end",
-    label: "4 - onErrorCaptured in Slots End",
+    label: "4 - onErrorCaptured with Slots End",
   },
   {
     to: "/5-begin",
