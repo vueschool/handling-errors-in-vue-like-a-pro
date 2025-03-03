@@ -48,6 +48,14 @@ const links = [
     to: "/6-end",
     label: "6 - Errors in Composables End",
   },
+  {
+    to: "/7-begin",
+    label: "7 - App Wide Errors Begin",
+  },
+  {
+    to: "/7-end",
+    label: "7 - App Wide Errors End",
+  },
 ];
 </script>
 <template>
