@@ -56,6 +56,14 @@ const links = [
     to: "/7-end",
     label: "7 - App Wide Errors End",
   },
+  {
+    to: "/8-begin",
+    label: "8 - Error Notifications Begin",
+  },
+  {
+    to: "/8-end",
+    label: "8 - Error Notifications End",
+  },
 ];
 </script>
 <template>

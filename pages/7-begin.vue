@@ -2,7 +2,7 @@
 const { post, error } = await usePost("99999");
 </script>
 <template>
-  <h1 class="text-2xl font-bold mb-5">Lesson 6 - App Level Errors Begin</h1>
+  <h1 class="text-2xl font-bold mb-5">Lesson 7 - App Level Errors Begin</h1>
   <p>
     View Example from Video
     <a

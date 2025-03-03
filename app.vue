@@ -3,4 +3,5 @@
   <NuxtLayout>
     <NuxtPage />
   </NuxtLayout>
+  <AppAlerts />
 </template>
