@@ -40,6 +40,14 @@ const links = [
     to: "/5-end",
     label: "5 - Error Boundary Component End",
   },
+  {
+    to: "/6-begin",
+    label: "6 - Errors in Composables Begin",
+  },
+  {
+    to: "/6-end",
+    label: "6 - Errors in Composables End",
+  },
 ];
 </script>
 <template>
