@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-const { post, error } = await usePost("99999");
+const { post, error } = await usePostEnd("99999");
 </script>
 <template>
   <h1 class="text-2xl font-bold mb-5">

@@ -1,4 +1,4 @@
-export const usePost = async (id: string) => {
+export const usePostEnd = async (id: string) => {
   const post = ref<any>(null);
   const error = ref<null | Error | unknown>(null);
   async function getPost() {
