@@ -6,7 +6,7 @@ function doRiskyThing() {
     test.trim();
   } catch (err) {
     alert.error("The Risky Thing Failed. Please contact support.", {
-      title: import.meta.dev && err instanceof Error ? err.message : "",
+      title: import.meta.dev ? err?.toString() : "",
     });
   }
 }

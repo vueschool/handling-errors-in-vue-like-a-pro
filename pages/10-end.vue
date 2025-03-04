@@ -1,9 +1,9 @@
 <script lang="ts" setup>
-class AppError extends Error {
+class AlertableError extends Error {
   public uxMessage: string;
 
-  constructor(options: { uxMessage: string; devMessage: string }) {
-    super(options.devMessage);
+  constructor(options: { uxMessage: string; devMessage: string | undefined }) {
+    super(options.devMessage ?? "Unknown error");
     this.name = "AppError";
     this.uxMessage = options.uxMessage;
   }
@@ -13,17 +13,10 @@ function doRiskyThing() {
   try {
     test.trim();
   } catch (err) {
-    if (err instanceof Error) {
-      throw new AppError({
-        uxMessage: "The Risky Thing Failed. Please contact support.",
-        devMessage: err.message,
-      });
-    } else {
-      throw new AppError({
-        uxMessage: "The Risky Thing Failed. Please contact support.",
-        devMessage: "Unknown error",
-      });
-    }
+    throw new AlertableError({
+      uxMessage: "The Risky Thing Failed. Please contact support.",
+      devMessage: err?.toString(),
+    });
   }
 }
 </script>
