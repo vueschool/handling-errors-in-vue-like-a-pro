@@ -64,6 +64,22 @@ const links = [
     to: "/8-end",
     label: "8 - Error Notifications End",
   },
+  {
+    to: "/9-begin",
+    label: "9 - Technical Message in Dev Begin",
+  },
+  {
+    to: "/9-end",
+    label: "9 - Technical Message in Dev End",
+  },
+  {
+    to: "/10-begin",
+    label: "10 - Custom UX Error Begin",
+  },
+  {
+    to: "/10-end",
+    label: "10 - Custom UX Error End",
+  },
 ];
 </script>
 <template>
