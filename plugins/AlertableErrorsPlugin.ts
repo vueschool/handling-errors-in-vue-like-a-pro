@@ -2,7 +2,7 @@ export default defineNuxtPlugin((nuxtApp) => {
   // for all lessons but #10
   // we don't want this pluign to run
   // so comment out the return on lesson 10
-  return;
+  // return;
 
   const nuxtDefaultErrorHandler = nuxtApp.vueApp.config.errorHandler;
 
