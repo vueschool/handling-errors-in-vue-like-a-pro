@@ -74,11 +74,11 @@ const links = [
   },
   {
     to: "/10-begin",
-    label: "10 - Custom UX Error Begin",
+    label: "10 - Custom AlertableError Begin",
   },
   {
     to: "/10-end",
-    label: "10 - Custom UX Error End",
+    label: "10 - Custom AlertableError End",
   },
 ];
 </script>

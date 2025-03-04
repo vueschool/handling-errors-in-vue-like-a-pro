@@ -6,12 +6,14 @@ function doRiskyThing() {
     test.trim();
   } catch (err) {
     alert.error("The Risky Thing Failed. Please contact support.", {
-      title: import.meta.dev && err instanceof Error ? err.message : "",
+      title: import.meta.dev ? err?.toString() : "",
     });
   }
 }
 </script>
 <template>
-  <h1 class="text-2xl font-bold mb-5">Lesson 8 - Error Notifications End</h1>
+  <h1 class="text-2xl font-bold mb-5">
+    Lesson 10 - Custom AlertableError Begin
+  </h1>
   <button class="btn btn-primary" @click="doRiskyThing">Click Me</button>
 </template>
