@@ -1,10 +1,9 @@
 <script setup lang="ts">
-// (nothing changed from 2b-begin.vue)
 const error = ref();
 onErrorCaptured((err) => {
   error.value = err;
   console.log("error captured", err);
-  return false;
+  // return false;
 });
 </script>
 
