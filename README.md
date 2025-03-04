@@ -1,6 +1,14 @@
-# Nuxt Minimal Starter
+# Handling Errors in Vue like a Pro
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This repo provides the source code for the course [Handling Errors in Vue like a Pro](https://vueschool.io/courses/handling-errors-in-vue-like-a-pro).
+
+[![Course image](TODO: image)](https://vueschool.io/courses/handling-errors-in-vue-like-a-pro)
+
+## Repo Contents
+
+Each lesson in the courses has a corresponding `begin` and `end` page within the codebase.
+
+Open the `begin` page for a lesson at the start of the lesson to follow along with the instructor. View the corresponding `end` page to get the code as it is at the end of the lesson.
 
 ## Setup
 
@@ -71,5 +79,3 @@ yarn preview
 # bun
 bun run preview
 ```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
