@@ -5,5 +5,6 @@ export class AlertableError extends Error {
     super(err?.toString() || "Unknown error");
     this.name = "";
     this.uxMessage = options.uxMessage;
+    this.cause = err;
   }
 }
